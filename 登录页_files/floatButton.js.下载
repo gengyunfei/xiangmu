@@ -1,0 +1,29 @@
+var live800_companyID="93082";
+var live800_protocol="https:";
+var live800_isMobile="0";
+var jsessionId = ";jsessionid=A01EBF8CEED3C5DE5C47B89B193FBFB9";
+try{
+if(navigator.cookieEnabled && navigator.platform !== "iPhone" && navigator.platform !== "iPad"){jsessionId = "";}
+}catch(e){}
+var enterurl = null;
+enterurl="https%3A%2F%2Fwww.converse.com.cn%2F";
+var isOldSkin=false;
+var server_prefix_list=['https://st8.live800.com/live800','https://st.live800.com/live800','https://st10.live800.com/live800','https://st16.live800.com/live800'];
+var isNeedCheckDomainBinding=false;
+var globalWindowAttribute='toolbar=0,scrollbars=0,location=0,menubar=0,resizable=1,width=920,height=620';
+live800_chatVersion="5";
+jid="5930601000";
+var live800_baseUrl="chat8.live800.com";
+var live800_baseHtmlUrl="chat8.live800.com";
+var live800_baseWebApp="/live800";
+var live800_baseChatHtmlDir="/chatClient";
+live800_Language="zh";
+live800_configID="149587";
+live800_configContent="live800_float=1&live800_online=http%3A%2F%2Ficon.live800.com%2Ffileupload%2FCustomFileDownloadServer%3FcompanyID%3D93082%26fna%3D146469663659893082&live800_offline=http%3A%2F%2Ficon.live800.com%2Ffileupload%2FCustomFileDownloadServer%3FcompanyID%3D93082%26fna%3D146469769152493082&live800_closeIcon=0&live800_floatToRight=1&live800_floatTop=150&live800_floatSide=5&live800_switch=0";
+
+(function(){
+var live800Script = document.createElement('script');
+live800Script.type = 'text/javascript';
+live800Script.src  = live800_protocol+'//st.live800.com/live800/chatClient/floatButtonStatic.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(live800Script, s);
+})();
